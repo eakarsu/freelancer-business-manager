@@ -1,0 +1,39 @@
+# Freelancer Business Manager App
+
+Industry: **Professional Services & Agencies**  
+Specialization: **Freelancer Business Manager**
+
+This standalone application consolidates source-backed workflows into 403 optimized features, including 60 data-backed or AI-enabled views. Its public demo SQLite database contains 1336 sanitized seed rows across 66 imported tables.
+
+## Run locally
+
+Python 3.12 or newer is recommended. No third-party packages are required.
+
+```bash
+cp .env.example .env
+./start.sh
+```
+
+The server listens on `127.0.0.1:4400` by default. OpenRouter is optional and is used only by explicitly labeled AI actions.
+
+## Validate
+
+```bash
+python scripts/validate_app.py
+python scripts/smoke_test.py
+```
+
+## Public demo data
+
+The committed database is a sanitized public demo. Saved AI runs are removed, credential/contact fields are pseudonymized, and local machine paths are normalized. Do not use the development server or sample authentication as production security controls.
+
+## Source provenance
+
+Source repository names and evidence paths are retained as provenance metadata; local source checkouts and their environment files are not included.
+
+- `AIFreelancerBusinessManager`
+- `agencyServices`
+- `akarsuadvisory`
+- `alliance`
+- `alliance_hakedis`
+- `gladiusadvisory`

@@ -1,0 +1,32 @@
+{
+  "id": "freelancer-business-manager",
+  "title": "Freelancer Business Manager App",
+  "industry": "Professional Services & Agencies",
+  "industryId": "professional-services-agencies",
+  "specialization": "Freelancer Business Manager",
+  "sourcePlatformGroup": "professional-services-platform",
+  "sources": [
+    "AIFreelancerBusinessManager",
+    "agencyServices",
+    "akarsuadvisory",
+    "alliance",
+    "alliance_hakedis",
+    "gladiusadvisory"
+  ],
+  "featureCount": 403,
+  "candidateFeatureCount": 417,
+  "eliminatedSimilarFeatures": 14,
+  "evidenceCount": 878,
+  "aiPageCount": 0,
+  "sourceAIPageCount": 0,
+  "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
+  "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
+  "database": "database.sqlite",
+  "databaseSeed": {
+    "seededProjects": 4,
+    "seededTables": 66,
+    "seededRows": 1336
+  },
+  "visibleFeatureCount": 60,
+  "featureVisibilityMode": "seeded-or-ai"
+}
