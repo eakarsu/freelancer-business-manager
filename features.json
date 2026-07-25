@@ -1,834 +1,5 @@
 [
   {
-    "name": "AI",
-    "canonicalKey": "ai",
-    "aliases": [
-      "AI Center",
-      "AI Tools"
-    ],
-    "kinds": [
-      "navigation",
-      "page"
-    ],
-    "routes": [
-      "/AICenter",
-      "/ai",
-      "/ai-center",
-      "/dashboard/ai",
-      "ai",
-      "ai-center"
-    ],
-    "sourceProjects": [
-      "AIFreelancerBusinessManager",
-      "agencyServices",
-      "akarsuadvisory",
-      "alliance",
-      "alliance_hakedis"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "agencyServices",
-        "path": "src/app/dashboard/ai/page.tsx",
-        "route": "/dashboard/ai",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:82",
-        "route": "ai",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "alliance",
-        "path": "frontend/src/App.jsx:144",
-        "route": "/ai",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "alliance_hakedis",
-        "path": "frontend/src/App.jsx:156",
-        "route": "/ai",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIFreelancerBusinessManager",
-        "path": "frontend/src/App.jsx:70",
-        "route": "ai-center",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIFreelancerBusinessManager",
-        "path": "frontend/src/components/Layout.jsx:22",
-        "route": "/ai-center",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIFreelancerBusinessManager",
-        "path": "frontend/src/pages/AICenter.jsx",
-        "route": "/AICenter",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "agencyServices",
-        "path": "src/components/Sidebar.tsx:32",
-        "route": "",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Analyze",
-    "canonicalKey": "ai analyze",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/:id/ai-analyze",
-      "/ai-analyze"
-    ],
-    "sourceProjects": [
-      "AIFreelancerBusinessManager"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIFreelancerBusinessManager",
-        "path": "backend/src/routes/communications.js:63",
-        "route": "/:id/ai-analyze",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIFreelancerBusinessManager",
-        "path": "backend/src/routes/projects.js:94",
-        "route": "/:id/ai-analyze",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIFreelancerBusinessManager",
-        "path": "backend/src/routes/timeEntries.js:78",
-        "route": "/ai-analyze",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Assistant",
-    "canonicalKey": "ai assistant",
-    "aliases": [],
-    "kinds": [
-      "navigation",
-      "page"
-    ],
-    "routes": [
-      "/AIAssistant"
-    ],
-    "sourceProjects": [
-      "alliance",
-      "alliance_hakedis"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "alliance",
-        "path": "frontend/src/components/Sidebar.jsx:80",
-        "route": "",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "alliance",
-        "path": "frontend/src/pages/AIAssistant.jsx",
-        "route": "/AIAssistant",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "alliance_hakedis",
-        "path": "frontend/src/components/Sidebar.jsx:96",
-        "route": "",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "alliance_hakedis",
-        "path": "frontend/src/pages/AIAssistant.jsx",
-        "route": "/AIAssistant",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Business Intelligence",
-    "canonicalKey": "ai business intelligence",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/AIBusinessIntelligence",
-      "ai-business-intelligence"
-    ],
-    "sourceProjects": [
-      "AIFreelancerBusinessManager"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "AIFreelancerBusinessManager",
-        "path": "frontend/src/App.jsx:71",
-        "route": "ai-business-intelligence",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "AIFreelancerBusinessManager",
-        "path": "frontend/src/pages/AIBusinessIntelligence.jsx",
-        "route": "/AIBusinessIntelligence",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Categorize",
-    "canonicalKey": "ai categorize",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/:id/ai-categorize"
-    ],
-    "sourceProjects": [
-      "AIFreelancerBusinessManager"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIFreelancerBusinessManager",
-        "path": "backend/src/routes/expenses.js:76",
-        "route": "/:id/ai-categorize",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Client Intent Scoring On Contact Submissions",
-    "canonicalKey": "ai client contact intent on scoring submission",
-    "aliases": [],
-    "kinds": [
-      "api",
-      "page"
-    ],
-    "routes": [
-      "/ai-client-intent-scoring-on-contact-submissions",
-      "/batch09/gap-ai/ai-client-intent-scoring-on-contact-submissions"
-    ],
-    "sourceProjects": [
-      "akarsuadvisory"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "akarsuadvisory",
-        "path": "backend/routes/batch09GapAi.js:45",
-        "route": "/ai-client-intent-scoring-on-contact-submissions",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:103",
-        "route": "/batch09/gap-ai/ai-client-intent-scoring-on-contact-submissions",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Client Intent Scoring On Contact Submissions Gap AI",
-    "canonicalKey": "ai client contact gap intent on scoring submissions",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/Batch09/AiClientIntentScoringOnContactSubmissionsGapAi"
-    ],
-    "sourceProjects": [
-      "akarsuadvisory"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/pages/Batch09/AiClientIntentScoringOnContactSubmissionsGapAi.jsx",
-        "route": "/Batch09/AiClientIntentScoringOnContactSubmissionsGapAi",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Competitor Positioning Analysis",
-    "canonicalKey": "ai analysis competitor positioning",
-    "aliases": [],
-    "kinds": [
-      "api",
-      "page"
-    ],
-    "routes": [
-      "/ai-competitor-positioning-analysis",
-      "/batch09/gap-ai/ai-competitor-positioning-analysis"
-    ],
-    "sourceProjects": [
-      "akarsuadvisory"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "akarsuadvisory",
-        "path": "backend/routes/batch09GapAi.js:58",
-        "route": "/ai-competitor-positioning-analysis",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:104",
-        "route": "/batch09/gap-ai/ai-competitor-positioning-analysis",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Competitor Positioning Analysis Gap AI",
-    "canonicalKey": "ai analysis competitor gap positioning",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/Batch09/AiCompetitorPositioningAnalysisGapAi"
-    ],
-    "sourceProjects": [
-      "akarsuadvisory"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/pages/Batch09/AiCompetitorPositioningAnalysisGapAi.jsx",
-        "route": "/Batch09/AiCompetitorPositioningAnalysisGapAi",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Estimate",
-    "canonicalKey": "ai estimate",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/:id/ai-estimate"
-    ],
-    "sourceProjects": [
-      "AIFreelancerBusinessManager"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIFreelancerBusinessManager",
-        "path": "backend/src/routes/tasks.js:87",
-        "route": "/:id/ai-estimate",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Forecast",
-    "canonicalKey": "ai forecast",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/ai-forecast"
-    ],
-    "sourceProjects": [
-      "AIFreelancerBusinessManager"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIFreelancerBusinessManager",
-        "path": "backend/src/routes/revenueReports.js:60",
-        "route": "/ai-forecast",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Generate",
-    "canonicalKey": "ai generate",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/ai-generate"
-    ],
-    "sourceProjects": [
-      "AIFreelancerBusinessManager"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIFreelancerBusinessManager",
-        "path": "backend/src/routes/invoices.js:106",
-        "route": "/ai-generate",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIFreelancerBusinessManager",
-        "path": "backend/src/routes/proposals.js:89",
-        "route": "/ai-generate",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Health",
-    "canonicalKey": "ai health",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/:id/ai-health"
-    ],
-    "sourceProjects": [
-      "AIFreelancerBusinessManager"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIFreelancerBusinessManager",
-        "path": "backend/src/routes/clients.js:79",
-        "route": "/:id/ai-health",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Improve",
-    "canonicalKey": "ai improve",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/:id/ai-improve"
-    ],
-    "sourceProjects": [
-      "AIFreelancerBusinessManager"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIFreelancerBusinessManager",
-        "path": "backend/src/routes/proposals.js:78",
-        "route": "/:id/ai-improve",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Insights",
-    "canonicalKey": "ai insight",
-    "aliases": [],
-    "kinds": [
-      "navigation",
-      "page"
-    ],
-    "routes": [
-      "/AIInsights",
-      "/ai-insights"
-    ],
-    "sourceProjects": [
-      "alliance",
-      "alliance_hakedis"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "alliance",
-        "path": "frontend/src/components/Sidebar.jsx:81",
-        "route": "",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "alliance",
-        "path": "frontend/src/App.jsx:145",
-        "route": "/ai-insights",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "alliance",
-        "path": "frontend/src/pages/AIInsights.jsx",
-        "route": "/AIInsights",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "alliance_hakedis",
-        "path": "frontend/src/components/Sidebar.jsx:97",
-        "route": "",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "alliance_hakedis",
-        "path": "frontend/src/App.jsx:157",
-        "route": "/ai-insights",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "alliance_hakedis",
-        "path": "frontend/src/pages/AIInsights.jsx",
-        "route": "/AIInsights",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Opportunity Scoring And Stage Prediction",
-    "canonicalKey": "ai and opportunity prediction scoring stage",
-    "aliases": [],
-    "kinds": [
-      "api",
-      "page"
-    ],
-    "routes": [
-      "/ai-opportunity-scoring-and-stage-prediction",
-      "/batch09/gap-ai/ai-opportunity-scoring-and-stage-prediction"
-    ],
-    "sourceProjects": [
-      "alliance"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "alliance",
-        "path": "backend/routes/batch09GapAi.js:45",
-        "route": "/ai-opportunity-scoring-and-stage-prediction",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "alliance",
-        "path": "frontend/src/App.jsx:160",
-        "route": "/batch09/gap-ai/ai-opportunity-scoring-and-stage-prediction",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Opportunity Scoring And Stage Prediction Gap AI",
-    "canonicalKey": "ai and gap opportunity prediction scoring stage",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/Batch09/AiOpportunityScoringAndStagePredictionGapAi"
-    ],
-    "sourceProjects": [
-      "alliance"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "alliance",
-        "path": "frontend/src/pages/Batch09/AiOpportunityScoringAndStagePredictionGapAi.jsx",
-        "route": "/Batch09/AiOpportunityScoringAndStagePredictionGapAi",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Personalization Of Content Per Visitor Segment",
-    "canonicalKey": "ai content of per personalization segment visitor",
-    "aliases": [],
-    "kinds": [
-      "api",
-      "page"
-    ],
-    "routes": [
-      "/ai-personalization-of-content-per-visitor-segment",
-      "/batch09/gap-ai/ai-personalization-of-content-per-visitor-segment"
-    ],
-    "sourceProjects": [
-      "akarsuadvisory"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "akarsuadvisory",
-        "path": "backend/routes/batch09GapAi.js:71",
-        "route": "/ai-personalization-of-content-per-visitor-segment",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:105",
-        "route": "/batch09/gap-ai/ai-personalization-of-content-per-visitor-segment",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Personalization Of Content Per Visitor Segment Gap AI",
-    "canonicalKey": "ai content gap of per personalization segment visitor",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/Batch09/AiPersonalizationOfContentPerVisitorSegmentGapAi"
-    ],
-    "sourceProjects": [
-      "akarsuadvisory"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/pages/Batch09/AiPersonalizationOfContentPerVisitorSegmentGapAi.jsx",
-        "route": "/Batch09/AiPersonalizationOfContentPerVisitorSegmentGapAi",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Predict",
-    "canonicalKey": "ai predict",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/:id/ai-predict"
-    ],
-    "sourceProjects": [
-      "AIFreelancerBusinessManager"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIFreelancerBusinessManager",
-        "path": "backend/src/routes/goals.js:62",
-        "route": "/:id/ai-predict",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "AIFreelancerBusinessManager",
-        "path": "backend/src/routes/invoices.js:95",
-        "route": "/:id/ai-predict",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Prioritize",
-    "canonicalKey": "ai prioritize",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/ai-prioritize"
-    ],
-    "sourceProjects": [
-      "AIFreelancerBusinessManager"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIFreelancerBusinessManager",
-        "path": "backend/src/routes/tasks.js:79",
-        "route": "/ai-prioritize",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Review",
-    "canonicalKey": "ai review",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/:id/ai-review"
-    ],
-    "sourceProjects": [
-      "AIFreelancerBusinessManager"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "AIFreelancerBusinessManager",
-        "path": "backend/src/routes/contracts.js:63",
-        "route": "/:id/ai-review",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Workflow Bottleneck Detection",
-    "canonicalKey": "ai bottleneck detection workflow",
-    "aliases": [],
-    "kinds": [
-      "api",
-      "page"
-    ],
-    "routes": [
-      "/ai-workflow-bottleneck-detection",
-      "/batch09/gap-ai/ai-workflow-bottleneck-detection"
-    ],
-    "sourceProjects": [
-      "alliance_hakedis"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "alliance_hakedis",
-        "path": "backend/routes/batch09GapAi.js:45",
-        "route": "/ai-workflow-bottleneck-detection",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "page",
-        "sourceProject": "alliance_hakedis",
-        "path": "frontend/src/App.jsx:172",
-        "route": "/batch09/gap-ai/ai-workflow-bottleneck-detection",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "AI Workflow Bottleneck Detection Gap AI",
-    "canonicalKey": "ai bottleneck detection gap workflow",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/Batch09/AiWorkflowBottleneckDetectionGapAi"
-    ],
-    "sourceProjects": [
-      "alliance_hakedis"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "alliance_hakedis",
-        "path": "frontend/src/pages/Batch09/AiWorkflowBottleneckDetectionGapAi.jsx",
-        "route": "/Batch09/AiWorkflowBottleneckDetectionGapAi",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
     "name": "About",
     "canonicalKey": "about",
     "aliases": [],
@@ -849,7 +20,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:69",
+        "path": "frontend/src/App.jsx:71",
         "route": "/about",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
@@ -989,7 +160,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:80",
+        "path": "frontend/src/App.jsx:82",
         "route": "/admin",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -1372,6 +543,32 @@
     ]
   },
   {
+    "name": "Advisory Review",
+    "canonicalKey": "advisory review",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/advisory-review"
+    ],
+    "sourceProjects": [
+      "akarsuadvisory"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "akarsuadvisory",
+        "path": "backend/routes/applicationAi.js:7",
+        "route": "/advisory-review",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
     "name": "Agreements",
     "canonicalKey": "agreement",
     "aliases": [],
@@ -1445,6 +642,861 @@
         "sourceProject": "alliance_hakedis",
         "path": "frontend/src/pages/Dashboard.jsx:107",
         "route": "/agreements",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI",
+    "canonicalKey": "ai",
+    "aliases": [
+      "AI Center",
+      "AI Tools"
+    ],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/AICenter",
+      "/ai",
+      "/ai-center",
+      "/dashboard/ai",
+      "ai",
+      "ai-center"
+    ],
+    "sourceProjects": [
+      "AIFreelancerBusinessManager",
+      "agencyServices",
+      "akarsuadvisory",
+      "alliance",
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "agencyServices",
+        "path": "src/app/dashboard/ai/page.tsx",
+        "route": "/dashboard/ai",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "akarsuadvisory",
+        "path": "frontend/src/App.jsx:85",
+        "route": "ai",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "alliance",
+        "path": "frontend/src/App.jsx:144",
+        "route": "/ai",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "alliance_hakedis",
+        "path": "frontend/src/App.jsx:156",
+        "route": "/ai",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "frontend/src/App.jsx:70",
+        "route": "ai-center",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "frontend/src/components/Layout.jsx:22",
+        "route": "/ai-center",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "frontend/src/pages/AICenter.jsx",
+        "route": "/AICenter",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "agencyServices",
+        "path": "src/components/Sidebar.tsx:32",
+        "route": "",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Analyze",
+    "canonicalKey": "ai analyze",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/ai-analyze",
+      "/ai-analyze"
+    ],
+    "sourceProjects": [
+      "AIFreelancerBusinessManager"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/communications.js:63",
+        "route": "/:id/ai-analyze",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/projects.js:94",
+        "route": "/:id/ai-analyze",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/timeEntries.js:78",
+        "route": "/ai-analyze",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Assistant",
+    "canonicalKey": "ai assistant",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/AIAssistant"
+    ],
+    "sourceProjects": [
+      "alliance",
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "alliance",
+        "path": "frontend/src/components/Sidebar.jsx:80",
+        "route": "",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "alliance",
+        "path": "frontend/src/pages/AIAssistant.jsx",
+        "route": "/AIAssistant",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "alliance_hakedis",
+        "path": "frontend/src/components/Sidebar.jsx:96",
+        "route": "",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "alliance_hakedis",
+        "path": "frontend/src/pages/AIAssistant.jsx",
+        "route": "/AIAssistant",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Business Intelligence",
+    "canonicalKey": "ai business intelligence",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/AIBusinessIntelligence",
+      "ai-business-intelligence"
+    ],
+    "sourceProjects": [
+      "AIFreelancerBusinessManager"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "frontend/src/App.jsx:71",
+        "route": "ai-business-intelligence",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "frontend/src/pages/AIBusinessIntelligence.jsx",
+        "route": "/AIBusinessIntelligence",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Categorize",
+    "canonicalKey": "ai categorize",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/ai-categorize"
+    ],
+    "sourceProjects": [
+      "AIFreelancerBusinessManager"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/expenses.js:76",
+        "route": "/:id/ai-categorize",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Client Intent Scoring On Contact Submissions",
+    "canonicalKey": "ai client contact intent on scoring submission",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/ai-client-intent-scoring-on-contact-submissions",
+      "/batch09/gap-ai/ai-client-intent-scoring-on-contact-submissions"
+    ],
+    "sourceProjects": [
+      "akarsuadvisory"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "akarsuadvisory",
+        "path": "backend/routes/batch09GapAi.js:45",
+        "route": "/ai-client-intent-scoring-on-contact-submissions",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "akarsuadvisory",
+        "path": "frontend/src/App.jsx:107",
+        "route": "/batch09/gap-ai/ai-client-intent-scoring-on-contact-submissions",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Client Intent Scoring On Contact Submissions Gap AI",
+    "canonicalKey": "ai client contact gap intent on scoring submission",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/Batch09/AiClientIntentScoringOnContactSubmissionsGapAi"
+    ],
+    "sourceProjects": [
+      "akarsuadvisory"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "akarsuadvisory",
+        "path": "frontend/src/pages/Batch09/AiClientIntentScoringOnContactSubmissionsGapAi.jsx",
+        "route": "/Batch09/AiClientIntentScoringOnContactSubmissionsGapAi",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Competitor Positioning Analysis",
+    "canonicalKey": "ai analysis competitor positioning",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/ai-competitor-positioning-analysis",
+      "/batch09/gap-ai/ai-competitor-positioning-analysis"
+    ],
+    "sourceProjects": [
+      "akarsuadvisory"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "akarsuadvisory",
+        "path": "backend/routes/batch09GapAi.js:58",
+        "route": "/ai-competitor-positioning-analysis",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "akarsuadvisory",
+        "path": "frontend/src/App.jsx:108",
+        "route": "/batch09/gap-ai/ai-competitor-positioning-analysis",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Competitor Positioning Analysis Gap AI",
+    "canonicalKey": "ai analysis competitor gap positioning",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/Batch09/AiCompetitorPositioningAnalysisGapAi"
+    ],
+    "sourceProjects": [
+      "akarsuadvisory"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "akarsuadvisory",
+        "path": "frontend/src/pages/Batch09/AiCompetitorPositioningAnalysisGapAi.jsx",
+        "route": "/Batch09/AiCompetitorPositioningAnalysisGapAi",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Estimate",
+    "canonicalKey": "ai estimate",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/ai-estimate"
+    ],
+    "sourceProjects": [
+      "AIFreelancerBusinessManager"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/tasks.js:87",
+        "route": "/:id/ai-estimate",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Forecast",
+    "canonicalKey": "ai forecast",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/ai-forecast"
+    ],
+    "sourceProjects": [
+      "AIFreelancerBusinessManager"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/revenueReports.js:60",
+        "route": "/ai-forecast",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Generate",
+    "canonicalKey": "ai generate",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/ai-generate"
+    ],
+    "sourceProjects": [
+      "AIFreelancerBusinessManager"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/invoices.js:106",
+        "route": "/ai-generate",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/proposals.js:89",
+        "route": "/ai-generate",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Health",
+    "canonicalKey": "ai health",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/ai-health"
+    ],
+    "sourceProjects": [
+      "AIFreelancerBusinessManager"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/clients.js:79",
+        "route": "/:id/ai-health",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Improve",
+    "canonicalKey": "ai improve",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/ai-improve"
+    ],
+    "sourceProjects": [
+      "AIFreelancerBusinessManager"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/proposals.js:78",
+        "route": "/:id/ai-improve",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Insights",
+    "canonicalKey": "ai insight",
+    "aliases": [],
+    "kinds": [
+      "navigation",
+      "page"
+    ],
+    "routes": [
+      "/AIInsights",
+      "/ai-insights"
+    ],
+    "sourceProjects": [
+      "alliance",
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "alliance",
+        "path": "frontend/src/components/Sidebar.jsx:81",
+        "route": "",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "alliance",
+        "path": "frontend/src/App.jsx:145",
+        "route": "/ai-insights",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "alliance",
+        "path": "frontend/src/pages/AIInsights.jsx",
+        "route": "/AIInsights",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "alliance_hakedis",
+        "path": "frontend/src/components/Sidebar.jsx:97",
+        "route": "",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "alliance_hakedis",
+        "path": "frontend/src/App.jsx:157",
+        "route": "/ai-insights",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "alliance_hakedis",
+        "path": "frontend/src/pages/AIInsights.jsx",
+        "route": "/AIInsights",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Opportunity Scoring And Stage Prediction",
+    "canonicalKey": "ai and opportunity prediction scoring stage",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/ai-opportunity-scoring-and-stage-prediction",
+      "/batch09/gap-ai/ai-opportunity-scoring-and-stage-prediction"
+    ],
+    "sourceProjects": [
+      "alliance"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "alliance",
+        "path": "backend/routes/batch09GapAi.js:45",
+        "route": "/ai-opportunity-scoring-and-stage-prediction",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "alliance",
+        "path": "frontend/src/App.jsx:160",
+        "route": "/batch09/gap-ai/ai-opportunity-scoring-and-stage-prediction",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Opportunity Scoring And Stage Prediction Gap AI",
+    "canonicalKey": "ai and gap opportunity prediction scoring stage",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/Batch09/AiOpportunityScoringAndStagePredictionGapAi"
+    ],
+    "sourceProjects": [
+      "alliance"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "alliance",
+        "path": "frontend/src/pages/Batch09/AiOpportunityScoringAndStagePredictionGapAi.jsx",
+        "route": "/Batch09/AiOpportunityScoringAndStagePredictionGapAi",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Personalization Of Content Per Visitor Segment",
+    "canonicalKey": "ai content of per personalization segment visitor",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/ai-personalization-of-content-per-visitor-segment",
+      "/batch09/gap-ai/ai-personalization-of-content-per-visitor-segment"
+    ],
+    "sourceProjects": [
+      "akarsuadvisory"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "akarsuadvisory",
+        "path": "backend/routes/batch09GapAi.js:71",
+        "route": "/ai-personalization-of-content-per-visitor-segment",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "akarsuadvisory",
+        "path": "frontend/src/App.jsx:109",
+        "route": "/batch09/gap-ai/ai-personalization-of-content-per-visitor-segment",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Personalization Of Content Per Visitor Segment Gap AI",
+    "canonicalKey": "ai content gap of per personalization segment visitor",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/Batch09/AiPersonalizationOfContentPerVisitorSegmentGapAi"
+    ],
+    "sourceProjects": [
+      "akarsuadvisory"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "akarsuadvisory",
+        "path": "frontend/src/pages/Batch09/AiPersonalizationOfContentPerVisitorSegmentGapAi.jsx",
+        "route": "/Batch09/AiPersonalizationOfContentPerVisitorSegmentGapAi",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Predict",
+    "canonicalKey": "ai predict",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/ai-predict"
+    ],
+    "sourceProjects": [
+      "AIFreelancerBusinessManager"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/goals.js:62",
+        "route": "/:id/ai-predict",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/invoices.js:95",
+        "route": "/:id/ai-predict",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Prioritize",
+    "canonicalKey": "ai prioritize",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/ai-prioritize"
+    ],
+    "sourceProjects": [
+      "AIFreelancerBusinessManager"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/tasks.js:79",
+        "route": "/ai-prioritize",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Review",
+    "canonicalKey": "ai review",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/:id/ai-review"
+    ],
+    "sourceProjects": [
+      "AIFreelancerBusinessManager"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/contracts.js:63",
+        "route": "/:id/ai-review",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Workflow Bottleneck Detection",
+    "canonicalKey": "ai bottleneck detection workflow",
+    "aliases": [],
+    "kinds": [
+      "api",
+      "page"
+    ],
+    "routes": [
+      "/ai-workflow-bottleneck-detection",
+      "/batch09/gap-ai/ai-workflow-bottleneck-detection"
+    ],
+    "sourceProjects": [
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "alliance_hakedis",
+        "path": "backend/routes/batch09GapAi.js:45",
+        "route": "/ai-workflow-bottleneck-detection",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "page",
+        "sourceProject": "alliance_hakedis",
+        "path": "frontend/src/App.jsx:172",
+        "route": "/batch09/gap-ai/ai-workflow-bottleneck-detection",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "AI Workflow Bottleneck Detection Gap AI",
+    "canonicalKey": "ai bottleneck detection gap workflow",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/Batch09/AiWorkflowBottleneckDetectionGapAi"
+    ],
+    "sourceProjects": [
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "alliance_hakedis",
+        "path": "frontend/src/pages/Batch09/AiWorkflowBottleneckDetectionGapAi.jsx",
+        "route": "/Batch09/AiWorkflowBottleneckDetectionGapAi",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "Alliance Advice",
+    "canonicalKey": "advice alliance",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/alliance-advice"
+    ],
+    "sourceProjects": [
+      "alliance"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "alliance",
+        "path": "backend/routes/runtimeAi.js:8",
+        "route": "/alliance-advice",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
     ]
@@ -1527,6 +1579,13 @@
         "path": "backend/routes/ai.js:110",
         "route": "/analyze",
         "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "alliance_hakedis",
+        "path": "backend/routes/authoritativeAi.js:9",
+        "route": "/analyze",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
       }
     ]
   },
@@ -1535,7 +1594,6 @@
     "canonicalKey": "app",
     "aliases": [],
     "kinds": [
-      "api",
       "page"
     ],
     "routes": [
@@ -1562,13 +1620,6 @@
         "kind": "page",
         "sourceProject": "alliance",
         "path": "frontend/src/App.jsx:149",
-        "route": "*",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "alliance_hakedis",
-        "path": "backend/server.js:109",
         "route": "*",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
@@ -1668,7 +1719,7 @@
   },
   {
     "name": "Approval Workflow Prediction Likely Bottlenecks Cfs",
-    "canonicalKey": "approval bottlenecks cfs likely prediction workflow",
+    "canonicalKey": "approval bottleneck cfs likely prediction workflow",
     "aliases": [],
     "kinds": [
       "page"
@@ -1722,6 +1773,41 @@
         "sourceProject": "alliance_hakedis",
         "path": "frontend/src/pages/ApprovalWorkflows.jsx",
         "route": "/ApprovalWorkflows",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "Approvals",
+    "canonicalKey": "approval",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/cases/:caseId/approvals",
+      "/claims/:claimId/approvals"
+    ],
+    "sourceProjects": [
+      "alliance",
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "alliance",
+        "path": "backend/routes/authoritativeAlliance.js:73",
+        "route": "/cases/:caseId/approvals",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "alliance_hakedis",
+        "path": "backend/routes/authoritativeHakedis.js:63",
+        "route": "/claims/:claimId/approvals",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
     ]
@@ -1805,8 +1891,43 @@
     ]
   },
   {
+    "name": "Audit",
+    "canonicalKey": "audit",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/cases/:caseId/audit",
+      "/claims/:claimId/audit"
+    ],
+    "sourceProjects": [
+      "alliance",
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "alliance",
+        "path": "backend/routes/authoritativeAlliance.js:161",
+        "route": "/cases/:caseId/audit",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "alliance_hakedis",
+        "path": "backend/routes/authoritativeHakedis.js:184",
+        "route": "/claims/:claimId/audit",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
     "name": "Automated Payout Calculations And Reconciliation",
-    "canonicalKey": "and automated calculations payout reconciliation",
+    "canonicalKey": "and automated calculation payout reconciliation",
     "aliases": [],
     "kinds": [
       "page"
@@ -1832,7 +1953,7 @@
   },
   {
     "name": "Automated Payout Calculations And Reconciliation Cfs",
-    "canonicalKey": "and automated calculations cfs payout reconciliation",
+    "canonicalKey": "and automated calculation cfs payout reconciliation",
     "aliases": [],
     "kinds": [
       "page"
@@ -1997,7 +2118,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:73",
+        "path": "frontend/src/App.jsx:75",
         "route": "/book-consultation",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
@@ -2037,116 +2158,6 @@
     ]
   },
   {
-    "name": "CRM",
-    "canonicalKey": "crm",
-    "aliases": [],
-    "kinds": [
-      "navigation"
-    ],
-    "routes": [],
-    "sourceProjects": [
-      "alliance",
-      "alliance_hakedis"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "navigation",
-        "sourceProject": "alliance",
-        "path": "frontend/src/components/Sidebar.jsx:22",
-        "route": "",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "navigation",
-        "sourceProject": "alliance_hakedis",
-        "path": "frontend/src/components/Sidebar.jsx:31",
-        "route": "",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "CRM Integration Salesforcehubspot",
-    "canonicalKey": "crm integration salesforcehubspot",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/batch09/cfs/crm-integration-salesforcehubspot"
-    ],
-    "sourceProjects": [
-      "akarsuadvisory"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:100",
-        "route": "/batch09/cfs/crm-integration-salesforcehubspot",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "CRM Integration Salesforcehubspot Cfs",
-    "canonicalKey": "cfs crm integration salesforcehubspot",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/Batch09/CrmIntegrationSalesforcehubspotCfs"
-    ],
-    "sourceProjects": [
-      "akarsuadvisory"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/pages/Batch09/CrmIntegrationSalesforcehubspotCfs.jsx",
-        "route": "/Batch09/CrmIntegrationSalesforcehubspotCfs",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "CRM Sync",
-    "canonicalKey": "crm sync",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/crm-sync"
-    ],
-    "sourceProjects": [
-      "akarsuadvisory"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "akarsuadvisory",
-        "path": "backend/routes/customFeatures.js:111",
-        "route": "/crm-sync",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
     "name": "Calendar Integration For Consultations",
     "canonicalKey": "calendar consultation for integration",
     "aliases": [],
@@ -2175,7 +2186,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:110",
+        "path": "frontend/src/App.jsx:114",
         "route": "/batch09/gap-nonai/calendar-integration-for-consultations",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -2183,7 +2194,7 @@
   },
   {
     "name": "Calendar Integration For Consultations Gap Non",
-    "canonicalKey": "calendar consultations for gap integration non",
+    "canonicalKey": "calendar consultation for gap integration non",
     "aliases": [],
     "kinds": [
       "page"
@@ -2302,6 +2313,32 @@
     ]
   },
   {
+    "name": "Case Id",
+    "canonicalKey": "case id",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/cases/:caseId"
+    ],
+    "sourceProjects": [
+      "alliance"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "alliance",
+        "path": "backend/routes/authoritativeAlliance.js:62",
+        "route": "/cases/:caseId",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
     "name": "Case Studies",
     "canonicalKey": "case study",
     "aliases": [
@@ -2325,7 +2362,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:86",
+        "path": "frontend/src/App.jsx:89",
         "route": "case-studies",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
@@ -2341,6 +2378,32 @@
         "sourceProject": "akarsuadvisory",
         "path": "frontend/src/pages/public/CaseStudyDetail.jsx",
         "route": "/public/CaseStudyDetail",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "Cases",
+    "canonicalKey": "case",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/cases"
+    ],
+    "sourceProjects": [
+      "alliance"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "alliance",
+        "path": "backend/routes/authoritativeAlliance.js:35",
+        "route": "/cases",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
     ]
@@ -2709,6 +2772,58 @@
     ]
   },
   {
+    "name": "Claim Id",
+    "canonicalKey": "claim id",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/claims/:claimId"
+    ],
+    "sourceProjects": [
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "alliance_hakedis",
+        "path": "backend/routes/authoritativeHakedis.js:54",
+        "route": "/claims/:claimId",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "Claims",
+    "canonicalKey": "claim",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/claims"
+    ],
+    "sourceProjects": [
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "alliance_hakedis",
+        "path": "backend/routes/authoritativeHakedis.js:35",
+        "route": "/claims",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
     "name": "Client Churn",
     "canonicalKey": "churn client",
     "aliases": [],
@@ -2754,7 +2869,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:99",
+        "path": "frontend/src/App.jsx:103",
         "route": "/batch09/cfs/client-communication-timeline-optimization",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -3008,7 +3123,7 @@
   },
   {
     "name": "Codex Operations Feature",
-    "canonicalKey": "codex operations",
+    "canonicalKey": "codex operation",
     "aliases": [],
     "kinds": [
       "page"
@@ -3078,6 +3193,41 @@
         "sourceProject": "akarsuadvisory",
         "path": "backend/routes/customFeatures.js:97",
         "route": "/comm-timeline",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "Commands",
+    "canonicalKey": "command",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/cases/:caseId/commands",
+      "/claims/:claimId/commands"
+    ],
+    "sourceProjects": [
+      "alliance",
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "alliance",
+        "path": "backend/routes/authoritativeAlliance.js:119",
+        "route": "/cases/:caseId/commands",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "alliance_hakedis",
+        "path": "backend/routes/authoritativeHakedis.js:100",
+        "route": "/claims/:claimId/commands",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
     ]
@@ -3313,7 +3463,7 @@
   },
   {
     "name": "Conflict Detection In Partner Networks Cfs",
-    "canonicalKey": "cfs conflict detection in networks partner",
+    "canonicalKey": "cfs conflict detection in network partner",
     "aliases": [],
     "kinds": [
       "page"
@@ -3547,7 +3697,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:97",
+        "path": "frontend/src/App.jsx:101",
         "route": "/batch09/cfs/consultant-matching-by-client-industrychallenge",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -3599,7 +3749,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:90",
+        "path": "frontend/src/App.jsx:93",
         "route": "consultations",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -3632,7 +3782,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:72",
+        "path": "frontend/src/App.jsx:74",
         "route": "/contact",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
@@ -3646,7 +3796,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:91",
+        "path": "frontend/src/App.jsx:94",
         "route": "contacts",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
@@ -3896,23 +4046,128 @@
     ]
   },
   {
-    "name": "Custom Views",
-    "canonicalKey": "custom view",
-    "aliases": [
-      "Custom Views Page"
+    "name": "CRM",
+    "canonicalKey": "crm",
+    "aliases": [],
+    "kinds": [
+      "navigation"
     ],
+    "routes": [],
+    "sourceProjects": [
+      "alliance",
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "navigation",
+        "sourceProject": "alliance",
+        "path": "frontend/src/components/Sidebar.jsx:22",
+        "route": "",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "navigation",
+        "sourceProject": "alliance_hakedis",
+        "path": "frontend/src/components/Sidebar.jsx:31",
+        "route": "",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "CRM Integration Salesforcehubspot",
+    "canonicalKey": "crm integration salesforcehubspot",
+    "aliases": [],
     "kinds": [
       "page"
     ],
     "routes": [
-      "/CustomViewsPage",
-      "/admin/CustomViewsPage",
+      "/batch09/cfs/crm-integration-salesforcehubspot"
+    ],
+    "sourceProjects": [
+      "akarsuadvisory"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "akarsuadvisory",
+        "path": "frontend/src/App.jsx:104",
+        "route": "/batch09/cfs/crm-integration-salesforcehubspot",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "CRM Integration Salesforcehubspot Cfs",
+    "canonicalKey": "cfs crm integration salesforcehubspot",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/Batch09/CrmIntegrationSalesforcehubspotCfs"
+    ],
+    "sourceProjects": [
+      "akarsuadvisory"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "akarsuadvisory",
+        "path": "frontend/src/pages/Batch09/CrmIntegrationSalesforcehubspotCfs.jsx",
+        "route": "/Batch09/CrmIntegrationSalesforcehubspotCfs",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "CRM Sync",
+    "canonicalKey": "crm sync",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/crm-sync"
+    ],
+    "sourceProjects": [
+      "akarsuadvisory"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "akarsuadvisory",
+        "path": "backend/routes/customFeatures.js:111",
+        "route": "/crm-sync",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "Custom Views",
+    "canonicalKey": "custom",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
       "/custom-views",
       "custom-views"
     ],
     "sourceProjects": [
       "AIFreelancerBusinessManager",
-      "akarsuadvisory",
       "alliance",
       "alliance_hakedis"
     ],
@@ -3947,7 +4202,30 @@
         "path": "frontend/src/App.jsx:159",
         "route": "/custom-views",
         "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
+      }
+    ]
+  },
+  {
+    "name": "Custom Views Page",
+    "canonicalKey": "custom view",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/CustomViewsPage",
+      "/admin/CustomViewsPage"
+    ],
+    "sourceProjects": [
+      "AIFreelancerBusinessManager",
+      "akarsuadvisory",
+      "alliance",
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
       {
         "kind": "page",
         "sourceProject": "AIFreelancerBusinessManager",
@@ -4016,7 +4294,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:63",
+        "path": "frontend/src/App.jsx:65",
         "route": "/codex/custom-viz",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
@@ -4354,7 +4632,7 @@
   },
   {
     "name": "Deal Structure Recommendations Gap AI",
-    "canonicalKey": "ai deal gap recommendations structure",
+    "canonicalKey": "ai deal gap recommendation structure",
     "aliases": [],
     "kinds": [
       "page"
@@ -4379,13 +4657,59 @@
     ]
   },
   {
+    "name": "Decision",
+    "canonicalKey": "decision",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/approvals/:approvalId/decision",
+      "/decision"
+    ],
+    "sourceProjects": [
+      "akarsuadvisory",
+      "alliance",
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "akarsuadvisory",
+        "path": "backend/routes/governedAdvisory.js:4",
+        "route": "/decision",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "alliance",
+        "path": "backend/routes/authoritativeAlliance.js:97",
+        "route": "/approvals/:approvalId/decision",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "alliance_hakedis",
+        "path": "backend/routes/authoritativeHakedis.js:82",
+        "route": "/approvals/:approvalId/decision",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
     "name": "Delivery",
     "canonicalKey": "delivery",
     "aliases": [],
     "kinds": [
+      "api",
       "navigation"
     ],
-    "routes": [],
+    "routes": [
+      "/cases/:caseId/deliveries"
+    ],
     "sourceProjects": [
       "alliance",
       "alliance_hakedis"
@@ -4394,6 +4718,13 @@
       "professional-services-agencies/freelancer-business-manager"
     ],
     "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "alliance",
+        "path": "backend/routes/authoritativeAlliance.js:173",
+        "route": "/cases/:caseId/deliveries",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
       {
         "kind": "navigation",
         "sourceProject": "alliance",
@@ -4430,7 +4761,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFreelancerBusinessManager",
-        "path": "backend/src/routes/auth.js:39",
+        "path": "backend/src/routes/auth.js:53",
         "route": "/demo-credentials",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -4522,6 +4853,67 @@
         "sourceProject": "alliance",
         "path": "backend/routes/integrations.js:383",
         "route": "/payouts/:id/disburse",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "Disbursements",
+    "canonicalKey": "disbursement",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/claims/:claimId/disbursements"
+    ],
+    "sourceProjects": [
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "alliance_hakedis",
+        "path": "backend/routes/authoritativeHakedis.js:131",
+        "route": "/claims/:claimId/disbursements",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "Dispatch",
+    "canonicalKey": "dispatch",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/deliveries/:jobId/dispatch",
+      "/disbursements/:jobId/dispatch"
+    ],
+    "sourceProjects": [
+      "alliance",
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "alliance",
+        "path": "backend/routes/authoritativeAlliance.js:205",
+        "route": "/deliveries/:jobId/dispatch",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "alliance_hakedis",
+        "path": "backend/routes/authoritativeHakedis.js:157",
+        "route": "/disbursements/:jobId/dispatch",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
     ]
@@ -4640,84 +5032,6 @@
     ]
   },
   {
-    "name": "ERP Integration For Revenue Recognition",
-    "canonicalKey": "erp for integration recognition revenue",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/batch09/cfs/erp-integration-for-revenue-recognition"
-    ],
-    "sourceProjects": [
-      "alliance_hakedis"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "alliance_hakedis",
-        "path": "frontend/src/App.jsx:169",
-        "route": "/batch09/cfs/erp-integration-for-revenue-recognition",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "ERP Integration For Revenue Recognition Cfs",
-    "canonicalKey": "cfs erp for integration recognition revenue",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/Batch09/ErpIntegrationForRevenueRecognitionCfs"
-    ],
-    "sourceProjects": [
-      "alliance_hakedis"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "alliance_hakedis",
-        "path": "frontend/src/pages/Batch09/ErpIntegrationForRevenueRecognitionCfs.jsx",
-        "route": "/Batch09/ErpIntegrationForRevenueRecognitionCfs",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "ERP Revrec",
-    "canonicalKey": "erp revrec",
-    "aliases": [],
-    "kinds": [
-      "api"
-    ],
-    "routes": [
-      "/erp-revrec"
-    ],
-    "sourceProjects": [
-      "alliance_hakedis"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "api",
-        "sourceProject": "alliance_hakedis",
-        "path": "backend/routes/customFeatures.js:108",
-        "route": "/erp-revrec",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
     "name": "Economic Scenario Modeling What If On Deal Terms",
     "canonicalKey": "deal economic if modeling on scenario term what",
     "aliases": [],
@@ -4745,7 +5059,7 @@
   },
   {
     "name": "Economic Scenario Modeling What If On Deal Terms Cfs",
-    "canonicalKey": "cfs deal economic if modeling on scenario terms what",
+    "canonicalKey": "cfs deal economic if modeling on scenario term what",
     "aliases": [],
     "kinds": [
       "page"
@@ -4820,7 +5134,7 @@
   },
   {
     "name": "Economics Split Optimization AI",
-    "canonicalKey": "ai economics optimization split",
+    "canonicalKey": "ai economic optimization split",
     "aliases": [],
     "kinds": [
       "api",
@@ -4855,7 +5169,7 @@
   },
   {
     "name": "Economics Split Optimization AI Gap AI",
-    "canonicalKey": "ai economics gap optimization split",
+    "canonicalKey": "ai economic gap optimization split",
     "aliases": [],
     "kinds": [
       "page"
@@ -5022,7 +5336,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:111",
+        "path": "frontend/src/App.jsx:115",
         "route": "/batch09/gap-nonai/email-campaign-module",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -5109,7 +5423,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:107",
+        "path": "frontend/src/App.jsx:111",
         "route": "/batch09/gap-nonai/engagement-project-tracking",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -5137,6 +5451,39 @@
         "sourceProject": "akarsuadvisory",
         "path": "frontend/src/pages/Batch09/EngagementProjectTrackingGapNon.jsx",
         "route": "/Batch09/EngagementProjectTrackingGapNon",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "Engagements",
+    "canonicalKey": "engagement",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/engagements"
+    ],
+    "sourceProjects": [
+      "AIFreelancerBusinessManager"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/governedBusiness.js:12",
+        "route": "/engagements",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/governedBusiness.js:16",
+        "route": "/engagements",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
     ]
@@ -5300,6 +5647,84 @@
         "sourceProject": "alliance_hakedis",
         "path": "backend/routes/economics.js:40",
         "route": "/entries",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "ERP Integration For Revenue Recognition",
+    "canonicalKey": "erp for integration recognition revenue",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/batch09/cfs/erp-integration-for-revenue-recognition"
+    ],
+    "sourceProjects": [
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "alliance_hakedis",
+        "path": "frontend/src/App.jsx:169",
+        "route": "/batch09/cfs/erp-integration-for-revenue-recognition",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "ERP Integration For Revenue Recognition Cfs",
+    "canonicalKey": "cfs erp for integration recognition revenue",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/Batch09/ErpIntegrationForRevenueRecognitionCfs"
+    ],
+    "sourceProjects": [
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "alliance_hakedis",
+        "path": "frontend/src/pages/Batch09/ErpIntegrationForRevenueRecognitionCfs.jsx",
+        "route": "/Batch09/ErpIntegrationForRevenueRecognitionCfs",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "ERP Revrec",
+    "canonicalKey": "erp revrec",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/erp-revrec"
+    ],
+    "sourceProjects": [
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "alliance_hakedis",
+        "path": "backend/routes/customFeatures.js:108",
+        "route": "/erp-revrec",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
     ]
@@ -5779,6 +6204,32 @@
     ]
   },
   {
+    "name": "Gap Agentic Interview Coordinator That Handles",
+    "canonicalKey": "agentic coordinator gap handle interview that",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/gap-agentic-interview-coordinator-that-handles"
+    ],
+    "sourceProjects": [
+      "agencyServices"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "agencyServices",
+        "path": "src/app/gap-agentic-interview-coordinator-that-handles/page.tsx",
+        "route": "/gap-agentic-interview-coordinator-that-handles",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
     "name": "Gap AI Candidate Scoring Suitability Ranking",
     "canonicalKey": "ai candidate gap ranking scoring suitability",
     "aliases": [],
@@ -5956,32 +6407,6 @@
         "sourceProject": "agencyServices",
         "path": "src/app/gap-ai-salary-benchmark-advisor/page.tsx",
         "route": "/gap-ai-salary-benchmark-advisor",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      }
-    ]
-  },
-  {
-    "name": "Gap Agentic Interview Coordinator That Handles",
-    "canonicalKey": "agentic coordinator gap handle interview that",
-    "aliases": [],
-    "kinds": [
-      "page"
-    ],
-    "routes": [
-      "/gap-agentic-interview-coordinator-that-handles"
-    ],
-    "sourceProjects": [
-      "agencyServices"
-    ],
-    "consolidatedFromApps": [
-      "professional-services-agencies/freelancer-business-manager"
-    ],
-    "evidence": [
-      {
-        "kind": "page",
-        "sourceProject": "agencyServices",
-        "path": "src/app/gap-agentic-interview-coordinator-that-handles/page.tsx",
-        "route": "/gap-agentic-interview-coordinator-that-handles",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
     ]
@@ -6280,7 +6705,7 @@
   },
   {
     "name": "Gap No Notification Engine Emailsms Reminder",
-    "canonicalKey": "emailsms engine gap no notification reminder",
+    "canonicalKey": "emailsm engine gap no notification reminder",
     "aliases": [],
     "kinds": [
       "page"
@@ -6536,7 +6961,7 @@
   },
   {
     "name": "Gap Workflow Automation Rules Auto Stage",
-    "canonicalKey": "auto automation gap rules stage workflow",
+    "canonicalKey": "auto automation gap rule stage workflow",
     "aliases": [],
     "kinds": [
       "page"
@@ -6615,7 +7040,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:83",
+        "path": "frontend/src/App.jsx:86",
         "route": "ai/generate-proposal",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -6815,7 +7240,7 @@
   },
   {
     "name": "Governance Compliance Auto Checks Gap AI",
-    "canonicalKey": "ai auto checks compliance gap governance",
+    "canonicalKey": "ai auto check compliance gap governance",
     "aliases": [],
     "kinds": [
       "page"
@@ -6867,7 +7292,7 @@
   },
   {
     "name": "Governance Compliance Automation Audit Approvals Cfs",
-    "canonicalKey": "approvals audit automation cfs compliance governance",
+    "canonicalKey": "approval audit automation cfs compliance governance",
     "aliases": [],
     "kinds": [
       "page"
@@ -7106,6 +7531,32 @@
     ]
   },
   {
+    "name": "Governed Advisory",
+    "canonicalKey": "advisory governed",
+    "aliases": [],
+    "kinds": [
+      "page"
+    ],
+    "routes": [
+      "/admin/GovernedAdvisory"
+    ],
+    "sourceProjects": [
+      "akarsuadvisory"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "page",
+        "sourceProject": "akarsuadvisory",
+        "path": "frontend/src/pages/admin/GovernedAdvisory.jsx",
+        "route": "/admin/GovernedAdvisory",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
     "name": "Guarantees",
     "canonicalKey": "guarantee",
     "aliases": [],
@@ -7173,10 +7624,7 @@
       "/api/health"
     ],
     "sourceProjects": [
-      "AIFreelancerBusinessManager",
-      "akarsuadvisory",
-      "alliance",
-      "alliance_hakedis"
+      "AIFreelancerBusinessManager"
     ],
     "consolidatedFromApps": [
       "professional-services-agencies/freelancer-business-manager"
@@ -7185,28 +7633,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFreelancerBusinessManager",
-        "path": "backend/src/server.js:52",
-        "route": "/api/health",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "akarsuadvisory",
-        "path": "backend/server.js:20",
-        "route": "/api/health",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "alliance",
-        "path": "backend/server.js:20",
-        "route": "/api/health",
-        "originApp": "professional-services-agencies/freelancer-business-manager"
-      },
-      {
-        "kind": "api",
-        "sourceProject": "alliance_hakedis",
-        "path": "backend/server.js:23",
+        "path": "backend/src/server.js:46",
         "route": "/api/health",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -7296,7 +7723,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:88",
+        "path": "frontend/src/App.jsx:91",
         "route": "industries",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
@@ -7347,7 +7774,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:85",
+        "path": "frontend/src/App.jsx:88",
         "route": "insights",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
@@ -7389,6 +7816,32 @@
         "sourceProject": "alliance_hakedis",
         "path": "backend/routes/workflows.js:219",
         "route": "/instances",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "Intake",
+    "canonicalKey": "intake",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/intake"
+    ],
+    "sourceProjects": [
+      "akarsuadvisory"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "akarsuadvisory",
+        "path": "backend/routes/governedAdvisory.js:3",
+        "route": "/intake",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
     ]
@@ -7453,6 +7906,32 @@
         "sourceProject": "alliance_hakedis",
         "path": "frontend/src/pages/IntegrationMap.jsx",
         "route": "/IntegrationMap",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "Integration Runs",
+    "canonicalKey": "integration runs",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/integration-runs"
+    ],
+    "sourceProjects": [
+      "AIFreelancerBusinessManager"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/governedBusiness.js:63",
+        "route": "/integration-runs",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
     ]
@@ -7653,7 +8132,7 @@
   },
   {
     "name": "Invoices For Pdf",
-    "canonicalKey": "for invoices pdf",
+    "canonicalKey": "for invoice pdf",
     "aliases": [],
     "kinds": [
       "api"
@@ -7740,7 +8219,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:109",
+        "path": "frontend/src/App.jsx:113",
         "route": "/batch09/gap-nonai/knowledge-base-wiki",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -8050,16 +8529,17 @@
     ]
   },
   {
-    "name": "List",
-    "canonicalKey": "list",
+    "name": "Live",
+    "canonicalKey": "live",
     "aliases": [],
     "kinds": [
       "api"
     ],
     "routes": [
-      "/api/users/list"
+      "/api/health/live"
     ],
     "sourceProjects": [
+      "akarsuadvisory",
       "alliance",
       "alliance_hakedis"
     ],
@@ -8069,16 +8549,23 @@
     "evidence": [
       {
         "kind": "api",
+        "sourceProject": "akarsuadvisory",
+        "path": "backend/server.js:1",
+        "route": "/api/health/live",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "api",
         "sourceProject": "alliance",
-        "path": "backend/server.js:71",
-        "route": "/api/users/list",
+        "path": "backend/server.js:14",
+        "route": "/api/health/live",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
       {
         "kind": "api",
         "sourceProject": "alliance_hakedis",
-        "path": "backend/server.js:95",
-        "route": "/api/users/list",
+        "path": "backend/server.js:13",
+        "route": "/api/health/live",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
     ]
@@ -8109,7 +8596,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFreelancerBusinessManager",
-        "path": "backend/src/routes/auth.js:24",
+        "path": "backend/src/routes/auth.js:25",
         "route": "/login",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
@@ -8137,14 +8624,14 @@
       {
         "kind": "api",
         "sourceProject": "akarsuadvisory",
-        "path": "backend/routes/auth.js:8",
+        "path": "backend/routes/auth.js:1",
         "route": "/login",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:77",
+        "path": "frontend/src/App.jsx:79",
         "route": "/login",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
@@ -8153,6 +8640,13 @@
         "sourceProject": "akarsuadvisory",
         "path": "frontend/src/pages/Login.jsx",
         "route": "/Login",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "alliance",
+        "path": "backend/routes/allianceAuth.js:10",
+        "route": "/login",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
       {
@@ -8268,6 +8762,7 @@
       "/me"
     ],
     "sourceProjects": [
+      "AIFreelancerBusinessManager",
       "akarsuadvisory",
       "alliance",
       "alliance_hakedis"
@@ -8278,8 +8773,22 @@
     "evidence": [
       {
         "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/auth.js:40",
+        "route": "/me",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "api",
         "sourceProject": "akarsuadvisory",
-        "path": "backend/routes/auth.js:23",
+        "path": "backend/routes/auth.js:1",
+        "route": "/me",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "alliance",
+        "path": "backend/routes/allianceAuth.js:28",
         "route": "/me",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
@@ -8530,8 +9039,42 @@
     ]
   },
   {
+    "name": "Monitoring",
+    "canonicalKey": "monitoring",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/monitoring"
+    ],
+    "sourceProjects": [
+      "alliance",
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "alliance",
+        "path": "backend/routes/authoritativeAlliance.js:233",
+        "route": "/monitoring",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "alliance_hakedis",
+        "path": "backend/routes/authoritativeHakedis.js:193",
+        "route": "/monitoring",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
     "name": "Multi Level Governance Approvals Board Cfo Sequenced",
-    "canonicalKey": "approvals board cfo governance level multi sequenced",
+    "canonicalKey": "approval board cfo governance level multi sequenced",
     "aliases": [],
     "kinds": [
       "api",
@@ -8566,7 +9109,7 @@
   },
   {
     "name": "Multi Level Governance Approvals Board Cfo Sequenced Gap Non",
-    "canonicalKey": "approvals board cfo gap governance level multi non sequenced",
+    "canonicalKey": "approval board cfo gap governance level multi non sequenced",
     "aliases": [],
     "kinds": [
       "page"
@@ -8921,7 +9464,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:64",
+        "path": "frontend/src/App.jsx:66",
         "route": "/codex/operations",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
@@ -9353,7 +9896,7 @@
   },
   {
     "name": "Partner Performance Dashboards With Anomaly Alerts",
-    "canonicalKey": "alert anomaly dashboards partner performance with",
+    "canonicalKey": "alert anomaly dashboard partner performance with",
     "aliases": [],
     "kinds": [
       "page"
@@ -9379,7 +9922,7 @@
   },
   {
     "name": "Partner Performance Dashboards With Anomaly Alerts Cfs",
-    "canonicalKey": "alerts anomaly cfs dashboards partner performance with",
+    "canonicalKey": "alert anomaly cfs dashboard partner performance with",
     "aliases": [],
     "kinds": [
       "page"
@@ -10237,7 +10780,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:84",
+        "path": "frontend/src/App.jsx:87",
         "route": "ai/predict-engagement",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -10323,7 +10866,7 @@
   },
   {
     "name": "Predictive Engagement Modeling Clients Likely To Hire For Ne",
-    "canonicalKey": "clients engagement for hire likely modeling ne predictive to",
+    "canonicalKey": "client engagement for hire likely modeling ne predictive to",
     "aliases": [],
     "kinds": [
       "page"
@@ -10341,7 +10884,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:95",
+        "path": "frontend/src/App.jsx:99",
         "route": "/batch09/cfs/predictive-engagement-modeling-clients-likely-to-hire-for-ne",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -10349,7 +10892,7 @@
   },
   {
     "name": "Predictive Engagement Modeling Clients Likely To Hire For Ne Cfs",
-    "canonicalKey": "cfs clients engagement for hire likely modeling ne predictive to",
+    "canonicalKey": "cfs client engagement for hire likely modeling ne predictive to",
     "aliases": [],
     "kinds": [
       "page"
@@ -10393,7 +10936,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:98",
+        "path": "frontend/src/App.jsx:102",
         "route": "/batch09/cfs/predictive-pricing-for-services",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -10401,7 +10944,7 @@
   },
   {
     "name": "Predictive Pricing For Services Cfs",
-    "canonicalKey": "cfs for predictive pricing services",
+    "canonicalKey": "cfs for predictive pricing service",
     "aliases": [],
     "kinds": [
       "page"
@@ -10785,7 +11328,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:106",
+        "path": "frontend/src/App.jsx:110",
         "route": "/batch09/gap-nonai/proposal-generation-beyond-templates",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -10793,7 +11336,7 @@
   },
   {
     "name": "Proposal Generation Beyond Templates Gap Non",
-    "canonicalKey": "beyond gap generation non proposal templates",
+    "canonicalKey": "beyond gap generation non proposal template",
     "aliases": [],
     "kinds": [
       "page"
@@ -10933,6 +11476,32 @@
         "sourceProject": "alliance_hakedis",
         "path": "frontend/src/pages/Proposals.jsx",
         "route": "/Proposals",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "Provider Events",
+    "canonicalKey": "event provider",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/provider-events"
+    ],
+    "sourceProjects": [
+      "akarsuadvisory"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "akarsuadvisory",
+        "path": "backend/routes/governedAdvisory.js:5",
+        "route": "/provider-events",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
     ]
@@ -11101,6 +11670,48 @@
     ]
   },
   {
+    "name": "Ready",
+    "canonicalKey": "ready",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/api/health/ready"
+    ],
+    "sourceProjects": [
+      "akarsuadvisory",
+      "alliance",
+      "alliance_hakedis"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "akarsuadvisory",
+        "path": "backend/server.js:1",
+        "route": "/api/health/ready",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "alliance",
+        "path": "backend/server.js:15",
+        "route": "/api/health/ready",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
+      {
+        "kind": "api",
+        "sourceProject": "alliance_hakedis",
+        "path": "backend/server.js:14",
+        "route": "/api/health/ready",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
     "name": "Recommend",
     "canonicalKey": "recommend",
     "aliases": [],
@@ -11205,7 +11816,7 @@
   },
   {
     "name": "Referrals Revenue",
-    "canonicalKey": "referrals revenue",
+    "canonicalKey": "referral revenue",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -11283,7 +11894,7 @@
       {
         "kind": "api",
         "sourceProject": "AIFreelancerBusinessManager",
-        "path": "backend/src/routes/auth.js:8",
+        "path": "backend/src/routes/auth.js:9",
         "route": "/register",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
@@ -11681,7 +12292,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:108",
+        "path": "frontend/src/App.jsx:112",
         "route": "/batch09/gap-nonai/retainer-billing-and-invoicing",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -11916,7 +12527,7 @@
   },
   {
     "name": "Risks Compliance",
-    "canonicalKey": "compliance risks",
+    "canonicalKey": "compliance risk",
     "aliases": [],
     "kinds": [
       "navigation"
@@ -12255,14 +12866,14 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:70",
+        "path": "frontend/src/App.jsx:72",
         "route": "/services",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:87",
+        "path": "frontend/src/App.jsx:90",
         "route": "services",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
@@ -12599,7 +13210,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:71",
+        "path": "frontend/src/App.jsx:73",
         "route": "/services/:slug",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -12607,7 +13218,7 @@
   },
   {
     "name": "Sox Grade Sod Controls Reporting",
-    "canonicalKey": "controls grade reporting sod sox",
+    "canonicalKey": "control grade reporting sod sox",
     "aliases": [],
     "kinds": [
       "api",
@@ -12642,7 +13253,7 @@
   },
   {
     "name": "Sox Grade Sod Controls Reporting Gap Non",
-    "canonicalKey": "controls gap grade non reporting sod sox",
+    "canonicalKey": "control gap grade non reporting sod sox",
     "aliases": [],
     "kinds": [
       "page"
@@ -13396,7 +14007,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:89",
+        "path": "frontend/src/App.jsx:92",
         "route": "testimonials",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -13448,7 +14059,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:101",
+        "path": "frontend/src/App.jsx:105",
         "route": "/batch09/cfs/thought-leadership-automation",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -13476,6 +14087,32 @@
         "sourceProject": "akarsuadvisory",
         "path": "frontend/src/pages/Batch09/ThoughtLeadershipAutomationCfs.jsx",
         "route": "/Batch09/ThoughtLeadershipAutomationCfs",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      }
+    ]
+  },
+  {
+    "name": "Time",
+    "canonicalKey": "time",
+    "aliases": [],
+    "kinds": [
+      "api"
+    ],
+    "routes": [
+      "/engagements/:id/time"
+    ],
+    "sourceProjects": [
+      "AIFreelancerBusinessManager"
+    ],
+    "consolidatedFromApps": [
+      "professional-services-agencies/freelancer-business-manager"
+    ],
+    "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/governedBusiness.js:24",
+        "route": "/engagements/:id/time",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
     ]
@@ -13563,7 +14200,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:62",
+        "path": "frontend/src/App.jsx:64",
         "route": "/insights/timeline",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       },
@@ -13637,16 +14274,25 @@
       "api"
     ],
     "routes": [
+      "/engagements/:id/transition",
       "/entries/:id/transition",
       "/shadow/:id/transition"
     ],
     "sourceProjects": [
+      "AIFreelancerBusinessManager",
       "alliance_hakedis"
     ],
     "consolidatedFromApps": [
       "professional-services-agencies/freelancer-business-manager"
     ],
     "evidence": [
+      {
+        "kind": "api",
+        "sourceProject": "AIFreelancerBusinessManager",
+        "path": "backend/src/routes/governedBusiness.js:43",
+        "route": "/engagements/:id/transition",
+        "originApp": "professional-services-agencies/freelancer-business-manager"
+      },
       {
         "kind": "api",
         "sourceProject": "alliance_hakedis",
@@ -13843,7 +14489,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:102",
+        "path": "frontend/src/App.jsx:106",
         "route": "/batch09/cfs/webinarspeaking-opportunity-identification",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }
@@ -13921,7 +14567,7 @@
       {
         "kind": "page",
         "sourceProject": "akarsuadvisory",
-        "path": "frontend/src/App.jsx:96",
+        "path": "frontend/src/App.jsx:100",
         "route": "/batch09/cfs/white-paper-generation-from-case-study-data",
         "originApp": "professional-services-agencies/freelancer-business-manager"
       }

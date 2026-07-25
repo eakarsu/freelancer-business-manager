@@ -13,20 +13,20 @@
     "alliance_hakedis",
     "gladiusadvisory"
   ],
-  "featureCount": 403,
-  "candidateFeatureCount": 417,
-  "eliminatedSimilarFeatures": 14,
-  "evidenceCount": 878,
+  "featureCount": 424,
+  "candidateFeatureCount": 437,
+  "eliminatedSimilarFeatures": 13,
+  "evidenceCount": 911,
   "aiPageCount": 0,
   "sourceAIPageCount": 0,
   "featureEvidencePolicy": "Existing source routes, pages, APIs, models, schemas, and navigation only",
   "optimizationPolicy": "Equivalent feature names are consolidated once per industry and assigned to one canonical app owner",
   "database": "database.sqlite",
   "databaseSeed": {
-    "seededProjects": 4,
-    "seededTables": 66,
-    "seededRows": 1336
+    "seededProjects": 3,
+    "seededTables": 9,
+    "seededRows": 138
   },
-  "visibleFeatureCount": 60,
+  "visibleFeatureCount": 27,
   "featureVisibilityMode": "seeded-or-ai"
 }
